@@ -12,16 +12,19 @@ h1 {
 p {
     text-align: center;
 }
-img {
+.photo {
     max-width: 50;
-    border-radius: 4;
+    border-radius: 10px;
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .links {
     display: flex;
     justify-content: space-evenly;
+}
+.links a {
+    color: green;
 }
 
 .mail {
